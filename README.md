@@ -1,2 +1,2 @@
-# electron-express
-This is a light weight integration of the express framework, with an electron application.
+#RCONTROL
+Este es el software encargado de  controlar y gestionar reservas que se desarrolla en angular/electron .
