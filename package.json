@@ -1,5 +1,5 @@
 {
-  "name": "electron-express",
+  "name": "rcontrol",
   "version": "1.0.0",
   "description": "This is a light weight integration of the express framework, with an electron application.",
   "main": "main.js",
@@ -21,12 +21,12 @@
     "electron",
     "express"
   ],
-  "author": "John Manning",
+  "author": "zaitho",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/theallmightyjohnmanning/electron-express/issues"
+    "url": "https://github.com/zaith1503/RCONTROL"
   },
-  "homepage": "https://github.com/theallmightyjohnmanning/electron-express#readme",
+  "homepage": "",
   "dependencies": {
     "bcryptjs": "^2.3.0",
     "body-parser": "^1.15.2",
