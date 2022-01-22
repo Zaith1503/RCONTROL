@@ -1,0 +1,31 @@
+{
+  "name": "rcontrol_electron",
+  "version": "1.0.0",
+  "description": "A Reserve client app",
+  "main": "./dist/main.js",
+  "author": "Nemesex1503",
+  "license": "MIT",
+  "dependencies": {
+    "@fullcalendar/core": "^5.9.0",
+    "@fullcalendar/daygrid": "^5.9.0",
+    "@fullcalendar/interaction": "^5.9.0",
+    "@fullcalendar/list": "^5.9.0",
+    "@fullcalendar/timegrid": "^5.9.0",
+    "bulma": "^0.9.3",
+    "core-js": "^3.16.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "socket.io": "^4.1.3"
+  },
+  "keywords": [
+    "electron",
+    "webpack",
+    "sass",
+    "bulma"
+  ],
+  "scripts": {
+    "start": "electron ./dist/main.js"
+  },
+  "postinstall": "electron-builder install-app-deps"
+}
