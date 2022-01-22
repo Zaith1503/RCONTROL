@@ -12,7 +12,7 @@ function createWindows() {
     height: 600,
     webPreferences: {
       contextIsolation: true,
-      //nodeIntegration: true,
+      nodeIntegration: true,
       nodeIntegrationInWorker: true,
       enableRemoteModule: true,
     },
@@ -20,8 +20,8 @@ function createWindows() {
   });
 
   mainWindow.loadURL("http://localhost:3000/");
-  mainWindow.loadFile("../dist/index.html");
-  mainWindow.webContents.openDevTools();
+  //mainWindow.loadFile("../dist/index.html");
+  //mainWindow.webContents.openDevTools();
   mainWindow.setMenuBarVisibility(false);
   mainWindow.on("ready-to-show", () => mainWindow.show());
 

@@ -1,9 +1,9 @@
 {
   "name": "rcontrol_electron",
-  "version": "1.0.0",
-  "description": "A Reserve client app",
+  "version": "0.1.0",
+  "description": "A powerful and easy-to-use booking engine to manage accommodations",
   "main": "./dist/main.js",
-  "author": "Nemesex1503",
+  "author": "Nemesex1503@gmail.com, ",
   "license": "MIT",
   "dependencies": {
     "@fullcalendar/core": "^5.9.0",
